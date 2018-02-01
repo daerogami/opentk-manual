@@ -6,4 +6,12 @@
 * [Chapter 1.1: Linux](chapter-11-linux.md)
 * [Chapter 1.2: Windows](chapter-12-windows.md)
 * [Chapter 1.3: Troubleshooting](chapter-13-troubleshooting.md)
+* [Chapter 1.4: Distributing](chapter-14-distributing.md)
+* [Chapter 2: Introduction to OpenTK](chapter-2-introduction-to-opentk.md)
+* [Chapter 2.1: 'DisplayDevice'](chapter-21-displaydevice.md)
+* [Chapter 2.2: 'GameWindow'](chapter-22-gamewindow.md)
+* [Chapter 2.3: 'NativeWindow'](chapter-23-nativewindow.md)
+* [Chapter 2.4: Winforms with GLControl](chapter-24-winforms-with-glcontrol.md)
+* [Chapter 2.5: Avoiding 100% CPU](chapter-25-avoiding-100-cpu.md)
+* [Chapter 2.6: Pitfall Avoidance](chapter-26.md)
 

@@ -14,4 +14,7 @@
 * [Chapter 2.4: Winforms with GLControl](chapter-24-winforms-with-glcontrol.md)
 * [Chapter 2.5: Avoiding 100% CPU](chapter-25-avoiding-100-cpu.md)
 * [Chapter 2.6: Pitfall Avoidance](chapter-26.md)
+* [Chapter 3: OpenTK.Math](chapter-3-opentkmath.md)
+* [Chapter 3.1: Half-Type](chapter-31-half-type.md)
+* [Chapter 4: OpenTK.Graphics](chapter-4-opentkgraphic-opengl-and-es.md)
 

@@ -19,7 +19,7 @@ while (!exit)
 }
 ```
 
-2. Game loops, where the application runs a simulation, polls user input and draws to screen continuously:
+1. Game loops, where the application runs a simulation, polls user input and draws to screen continuously:
 
 ```
 while (!exit)
@@ -36,29 +36,8 @@ One side-effect of continuous game loops is that the CPU is always utilized 100%
 
 To release CPU time, do one of those:
 
-* Enable vsync via
-  `GraphicsContext`
-  `.`
-  `CurrentContext`
-  `.`
-  `VSync`
-  `=`
-  `true`
-  in your glControl Load. This is very accurate but may fail to work on some older drivers or when the user disables vsync in his driver configuration.
-* Call
-  `System`
-  `.`
-  `Threading`
-  `.`
-  `Thread`
-  `.`
-  `Sleep`
-  `(`
-  `n`
-  `)`
-  where
-  n
-  is the amount of milliseconds you have to spare, considering your target framerate. \(For instance, if you target 60fps or 16.6ms per frame, and your frame time is 10ms, you have 6.6ms to spare\). This approach will always work but is less accurate may overshoot the amount of milliseconds you specify.
+* Enable vsync via`GraphicsContext.CurrentContext.VSync=true`in your glControl Load. This is very accurate but may fail to work on some older drivers or when the user disables vsync in his driver configuration.
+* Call`System.Threading.Thread.Sleep(n)`where n is the amount of milliseconds you have to spare, considering your target framerate. \(For instance, if you target 60fps or 16.6ms per frame, and your frame time is 10ms, you have 6.6ms to spare\). This approach will always work but is less accurate may overshoot the amount of milliseconds you specify.
 
 Don't enable vsync and sleep at the same time, as this may reduce your framerate below your intended target.
 

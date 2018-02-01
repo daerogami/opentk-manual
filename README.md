@@ -1,6 +1,6 @@
-The manual is not complete. You can find \(and add\)[experimental pages here](https://web.archive.org/web/20150923092918/http://www.opentk.com/doc/experiment). Also, check the[available translations](https://web.archive.org/web/20150923092918/http://www.opentk.com/doc/translations).
+The manual is not complete. You can find \(and add\) [experimental pages here](https://web.archive.org/web/20150923092918/http://www.opentk.com/doc/experiment). Also, check the [available translations](https://web.archive.org/web/20150923092918/http://www.opentk.com/doc/translations).
 
-This manual is released as [Creative Commons](https://web.archive.org/web/20150923092918/http://en.wikipedia.org/wiki/Creative_Commons_licenses)\(BY-NC-SA\). You may reproduce it and creative derivative works fornon-commercial purposes: \(a\) you provide a [link](https://web.archive.org/web/20150923092918/http://www.opentk.com/doc) to the original; \(b\) you distribute your derivative work under an identical license.
+This manual is released as [Creative Commons](https://web.archive.org/web/20150923092918/http://en.wikipedia.org/wiki/Creative_Commons_licenses)\(BY-NC-SA\). You may reproduce it and creative derivative works for non-commercial purposes: \(a\) you provide a [link](https://web.archive.org/web/20150923092918/http://www.opentk.com/doc) to the original; \(b\) you distribute your derivative work under an identical license.
 
 Welcome and thanks for using the Open Toolkit library!
 
